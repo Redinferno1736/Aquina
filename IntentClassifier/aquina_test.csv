@@ -1,0 +1,974 @@
+text,intent,slot
+"actually, move resume.pdf to another folder lol!",move_file,resume.pdf
+"um, search the web for best laptops 2026 right now",search_web,best laptops 2026
+"um, rename test_cases.js to newname lol",rename_file,test_cases.js
+"uM, OpEn fILe liceNse.css TY.",search_file,LICENSE.css
+run command git merge,run_command,git merge
+"um, get rid of the Family folder lol!!",delete_folder,Family
+can you delete folder Documents,delete_folder,Documents
+"uh, load project NeoScore right now!",open_project,NeoScore
+"okay, quit zoom ty.",close_app,Zoom
+please I need to change a setting if possible,open_settings,
+"um, search the web for best laptops 2026",search_web,best laptops 2026
+please sign out when you can.,logout,
+"uh, next song please",next_song,
+"so, sign out please!",logout,
+would you I need a new folder called Screenshots asap,create_folder,Screenshots
+hey screenshot this,take_screenshot,
+can you close Photoshop real quick before the meeting,close_app,Photoshop
+can you explain terminal,general_chat,
+quickly make it quieter right now,volume_down,
+yo open Task Manager then open CMD ty!,multi_intent,Task Manager;CMD
+pls terminate YouTube Music please!,close_app,YouTube Music
+kindly I need krom shut down now real quick,close_app,Chrome
+"uh, unmute it!",unmute,
+"UM, OPEN THE SITE CHATGPT.COM THANKS??",open_url,chatgpt.com
+would you sleep now??,sleep_pc,
+shut OneNote off ty!,close_app,OneNote
+"so, look for presentation_draft.md thanks because I need Gmail.",search_file,presentation_draft.md
+"okay, make a copy of notes.py for me",copy_file,notes.py
+kindly open teams then open chrome beta right now,multi_intent,Teams;Chrome Beta
+pls move script.docx to Desktop please,move_file,script.docx
+"actually, take me to linkedin.com asap.",open_url,linkedin.com
+"okay, lock now lol",lock_pc,
+would you clear trash thanks for the dbms lab.,empty_recycle_bin,
+hey run git add . thanks??,run_command,git add .
+yo unmute it!,unmute,
+could you find file report now,search_file,report
+hey my project MoodQuest is going well right now!,general_chat,
+please open the site gmail.com please.,open_url,gmail.com
+rename folder assignments please,rename_folder,Assignments
+can you empty the recycle bin lol,empty_recycle_bin,
+"okay, create folder videos before open it now",multi_intent,Videos
+"actually, take me to stackoverflow.com",open_url,stackoverflow.com
+"actually, copy notes.py now",copy_file,notes.py
+can you go to google.com for me,open_url,google.com
+trash script.py real quick,delete_file,script.py
+"ok, go to sleep!!",sleep_pc,
+open premiere pro right now,open_app,Premiere Pro
+could you lower the volume thanks,volume_down,
+"okay, rename folder Notes please.",rename_folder,Notes
+"uh, pull up LICENSE.xlsx for me so I can browse",search_file,LICENSE.xlsx
+quickly sleep mode thanks,sleep_pc,
+hey skip this song thanks,next_song,
+could you resume music.,resume_music,
+"uh, empty trash asap",empty_recycle_bin,
+yo get rid of the file invoice.json thanks,delete_file,invoice.json
+"ok, start command git commit when you can",run_command,git commit
+would you duplicate notes_final.html...,copy_file,notes_final.html
+can you move resume.js asap,move_file,resume.js
+kindly find resume_latest.pptx after open it ty,multi_intent,resume_latest.pptx
+can you open my ContractPulse project!!,open_project,ContractPulse
+"actually, copy invoice.js real quick",copy_file,invoice.js
+can you rename resume_final.html when you can,rename_file,resume_final.html
+"okay, play the last song please",previous_song,
+can you take me to gmail.com for me,open_url,gmail.com
+can you open Telegram and open Epic Games lol,multi_intent,Telegram;Epic Games
+bro get Photoshop open!,open_app,Photoshop
+plz kill Windows Media Player if possible.,close_app,Windows Media Player
+please get Slack open thanks.,open_app,Slack
+"um, shutdown now!!",shutdown_pc,
+can you move package.js when you can,move_file,package.js
+please brightness down right now.,brightness_down,
+can you rename folder school,rename_folder,School
+"ok, i need to change a setting thanks",open_settings,
+kindly go to chatgpt.com asap,open_url,chatgpt.com
+would you delete lab_manual.css right now before the meeting,delete_file,lab_manual.css
+kindly rename folder Pictures if possible.,rename_folder,Pictures
+start playing music,play_music,
+"uh, lock my pc right now.",lock_pc,
+"um, empty the recycle bin lol",empty_recycle_bin,
+can you delete notes_final.pdf...,delete_file,notes_final.pdf
+yo shut down Telegram ty!!,close_app,Telegram
+yo play the last song!!,previous_song,
+bro close android studio then open steam right now,multi_intent,Android Studio;Steam
+"um, trash the React folder I need it urgently",delete_folder,React
+could you open Firefox lol.,open_app,Firefox
+could you open Todo App thanks,open_project,Todo App
+hey open my contractpulse project right now,open_project,ContractPulse
+bro get rid of Task Manager thanks.,close_app,Task Manager
+kindly find file test_cases,search_file,test_cases
+yo visit linkedin.com real quick for today's work,open_url,linkedin.com
+can you rename index.py please,rename_file,index.py
+bro volume down ty,volume_down,
+hey turn the volume down please.,volume_down,
+"uh, load project Chat App now.",open_project,Chat App
+"actually, launch project Internship Project for me??",open_project,Internship Project
+rename the file ppt_final for me I forgot where it is,rename_file,ppt_final
+bro make a folder called IEEE thanks for the DBMS lab,create_folder,IEEE
+pls copy summary.xlsx thanks...,copy_file,summary.xlsx
+"ok, make folder Backup right now",create_folder,Backup
+could you load project SummAize thanks,open_project,SummAize
+plz shutdown now when you can because I need Gmail,shutdown_pc,
+bro duplicate final_report.pdf ty,copy_file,final_report.pdf
+"ok, rename the file README.xlsx now.",rename_file,README.xlsx
+kindly pull up budget.md ty.,search_file,budget.md
+"okay, shutdown followed by close telegram now!!",multi_intent,Telegram
+"ok, set up a folder for Documents please!",create_folder,Documents
+can you rename utils.js before the meeting,rename_file,utils.js
+plz abcdefg real quick I forgot where it is,unknown,
+kindly quit Origin??,close_app,Origin
+quickly rename the Vacation folder thanks,rename_folder,Vacation
+"okay, create directory Downloads real quick...",create_folder,Downloads
+can you close PyCharm now it's lagging,close_app,PyCharm
+"um, move todo_list.pdf to another folder ty",move_file,todo_list.pdf
+"um, make folder Images",create_folder,Images
+"actually, copy shopping_list.pptx",copy_file,shopping_list.pptx
+pls run python main.py and run npm install now.,multi_intent,python main.py;npm install
+pls make the screen brighter right now,brightness_up,
+please make it louder right now!!,volume_up,
+"so, search for how to center a div ty before the meeting",search_web,how to center a div
+"uh, move syllabus.docx to desktop for me",move_file,syllabus.docx
+can you rename report.js now,rename_file,report.js
+"so, rename folder Vacation now...",rename_folder,Vacation
+bro make the screen brighter please.,brightness_up,
+plz find resume_latest.html right now.,search_file,resume_latest.html
+"SO, RENAME THE COLLEGE FOLDER THANKS!",rename_folder,College
+can you rename folder Games asap.,rename_folder,Games
+CAN YOU SKIP THIS SONG LOL,next_song,
+hey move utils.docx to Desktop now.,move_file,utils.docx
+"okay, start command git commit when you can",run_command,git commit
+can you explain React App ty...,general_chat,
+please play the next track please,next_song,
+can you rename draft.json real quick,rename_file,draft.json
+pls open chrome,open_app,Chrome
+hey brightness down when you can,brightness_down,
+"actually, get rid of the java folder thanks",delete_folder,Java
+bro rename folder portfolio for me,rename_folder,Portfolio
+"pls hey, pull up Chrom lol.",open_app,Chrome
+"uh, open Sublime Text now",open_app,Sublime Text
+"SO, TURN OFF SOUND PLEASE",mute,
+would you lower the brightness right now,brightness_down,
+would you start command npm install asap...,run_command,npm install
+hey look for package thanks,search_file,package
+can you find resume_final.css for me thanks.,search_file,resume_final.css
+"actually, show clipboard history.",clipboard_history,
+hey rename the file timetable.pptx ty,rename_file,timetable.pptx
+would you go back a track,previous_song,
+can you rename index.js if possible.,rename_file,index.js
+would you delete resume_final.js,delete_file,resume_final.js
+PLS DUPLICATE UTILS.DOCX PLEASE FOR THE DBMS LAB,copy_file,utils.docx
+"okay, open stackoverflow.com",open_url,stackoverflow.com
+"okay, move assignment2.md to Desktop...",move_file,assignment2.md
+cOulD YOU CApTurE thE sCrEeN wHeN YoU caN,take_screenshot,
+would you previous song real quick.,previous_song,
+kindly locate summary.py!!,search_file,summary.py
+would you move invoice.xlsx to another folder if possible,move_file,invoice.xlsx
+can you rename dbms_notes.js ty??,rename_file,dbms_notes.js
+BRO MAKE A COPY OF RESUME.PDF REAL QUICK.,copy_file,resume.pdf
+pls unmute it ty,unmute,
+PLS GO TO CHATGPT.COM PLEASE,open_url,chatgpt.com
+yo remove invoice_2026.pptx please.,delete_file,invoice_2026.pptx
+"so, play the next track thanks",next_song,
+RENAME FOLDER DBMS FOR ME FOR TODAY'S ASSIGNMENT,rename_folder,DBMS
+hmmmm!,unknown,
+would you dim the screen lol!,brightness_down,
+please open Semester4 Project ty!!,open_project,Semester4 Project
+"so, remove meeting_notes asap",delete_file,meeting_notes
+kindly trash the Java folder thanks before the meeting,delete_folder,Java
+"um, get rid of the file resume_latest.pdf.",delete_file,resume_latest.pdf
+"okay, close calculator and open powershell please",multi_intent,Calculator;PowerShell
+"um, take me to leetcode.com for me",open_url,leetcode.com
+"okay, open youtube.com",open_url,youtube.com
+"ok, rename the file os_lab for me",rename_file,os_lab
+"okay, make a copy of script ty for today's work",copy_file,script
+please move invoice_2026.xlsx to another folder,move_file,invoice_2026.xlsx
+hey launch project E-commerce Site thanks,open_project,E-commerce Site
+quickly my project Teams is going well ty!!,general_chat,
+yo new folder python right now.,create_folder,Python
+"actually, move README.json to another folder.",move_file,README.json
+pls copy requirements.json ty!!,copy_file,requirements.json
+would you shut down the pc,shutdown_pc,
+bro rename the file config.md for me!,rename_file,config.md
+please start command npm start!!,run_command,npm start
+"so, unmute thanks for today's assignment",unmute,
+would you open Google Chrome after open Settings asap!!,multi_intent,Google Chrome;Settings
+hey trash the Downloads folder real quick,delete_folder,Downloads
+can you play the next track,next_song,
+would you look up best laptops 2026 when you can...,search_web,best laptops 2026
+can you move config.pdf for me,move_file,config.pdf
+yo shut PyCharm off,close_app,PyCharm
+hey increase brightness lol,brightness_up,
+"um, open settings thanks for the dbms lab",open_settings,
+can you move ppt_final.html when you can,move_file,ppt_final.html
+could you move style.txt to desktop for me before the meeting,move_file,style.txt
+hey get rid of the file summary.md real quick,delete_file,summary.md
+pls pause the song for me!,pause_music,
+"so, remove folder Work asap",delete_folder,Work
+Plz abCdEfG fOR ME,unknown,
+"UM, LOCATE RESUME_LATEST.PDF.",search_file,resume_latest.pdf
+"ok, rename the file shopping_list.pdf please!!",rename_file,shopping_list.pdf
+plz switch to YouTube Music please.,open_app,YouTube Music
+BRO MakE a cOPy of sUMmarY.xlsX,copy_file,summary.xlsx
+please put the pc to sleep now,sleep_pc,
+pls I like FabrAIc thanks.,general_chat,
+bro make a folder called Family,create_folder,Family
+could you empty the recycle bin real quick!,empty_recycle_bin,
+plz trash notes.docx asap for the DBMS lab,delete_file,notes.docx
+please execute npm start,run_command,npm start
+KINDLY MAKE IT LOUDER FOR ME BECAUSE I NEED GMAIL.,volume_up,
+PLEASE GET RID OF THE DESKTOP FOLDER.,delete_folder,Desktop
+quickly search for weather bengaluru thanks,search_web,weather bengaluru
+plz rename folder backup asap.,rename_folder,Backup
+can you create a folder named React asap.,create_folder,React
+"uh, open the site leetcode.com",open_url,leetcode.com
+"um, search the web for cheap flights to goa lol.",search_web,cheap flights to goa
+quickly unmute it asap for the dbms lab!!,unmute,
+"So, OPEn SETTingS",open_settings,
+can you rename app.json for me,rename_file,app.json
+bro get rid of the Documents folder,delete_folder,Documents
+pls sleep now because I need Gmail,sleep_pc,
+"actually, copy summary.js",copy_file,summary.js
+"um, continue playing for me I forgot where it is!",resume_music,
+PLS I'M LOOKING FOR STYLE ASAP,search_file,style
+"ok, make the screen brighter asap",brightness_up,
+please find report.pptx.,search_file,report.pptx
+can you delete dbms_notes.html...,delete_file,dbms_notes.html
+can you hi if possible.,general_chat,
+"okay, stop Task Manager please",close_app,Task Manager
+kindly remove folder videos right now!!,delete_folder,Videos
+quickly restart my computer thanks??,restart_pc,
+"ok, find file style.json lol for the dbms lab",search_file,style.json
+heY tRaSH ThE gamEs fOLDER RIGHT Now.,delete_folder,Games
+hey I need to change a setting when you can I forgot where it is!,open_settings,
+pls run cargo build if possible.,run_command,cargo build
+open github.com thanks,open_url,github.com
+"okay, run npm start ty...",run_command,npm start
+could you play the next track!,next_song,
+bro lorem ipsum real quick it's lagging,unknown,
+"okay, rename the file todo.css for me",rename_file,todo.css
+CAN YOU DELETE INVOICE.TXT LOL,delete_file,invoice.txt
+pls copy todo.css when you can,copy_file,todo.css
+"OK, SIGN OUT THANKS",logout,
+"okay, create directory Downloads ty.",create_folder,Downloads
+KINDLY RENAME THE VACATION FOLDER,rename_folder,Vacation
+hey unmute it if possible,unmute,
+"uh, turn the volume down real quick",volume_down,
+would you rename the OS folder when you can,rename_folder,OS
+can you let's open WhatsApp thanks.,open_app,WhatsApp
+kindly restart for me!!,restart_pc,
+can you open the Python Project project ty...,open_project,Python Project
+kindly dim the screen for me,brightness_down,
+please rename the OS folder because I need Gmail,rename_folder,OS
+"uh, skip this song please",next_song,
+please execute git clone asap!,run_command,git clone
+pause music.,pause_music,
+would you delete folder Work real quick,delete_folder,Work
+can you lock the screen please so I can browse,lock_pc,
+"actually, search for next.js tutorial lol!",search_web,next.js tutorial
+plz locate project_proposal.html lol.,search_file,project_proposal.html
+PleASe giT baSh Is coNfusIng,general_chat,
+could you expense tracker is my favorite app,general_chat,
+could you rename folder IEEE!!,rename_folder,IEEE
+"okay, rename presentation_draft.pptx to newname",rename_file,presentation_draft.pptx
+"OK, pAUSe mUsIC",pause_music,
+"okay, terminate Firefox right now",close_app,Firefox
+bro spin up vlc,open_app,VLC
+can you move index.txt ty,move_file,index.txt
+"okay, trash script.py thanks.",delete_file,script.py
+can you show clipboard history ty,clipboard_history,
+can you open my Semester4 Project project asap.,open_project,Semester4 Project
+would you search for weather bengaluru if possible.,search_web,weather bengaluru
+pls go to gmail.com now,open_url,gmail.com
+could you lock the screen please...,lock_pc,
+"UM, SCREENSHOT THIS IF POSSIBLE...",take_screenshot,
+hey rename folder Desktop right now.,rename_folder,Desktop
+"ok, rename the file LICENSE.pptx if possible",rename_file,LICENSE.pptx
+yo increase volume,volume_up,
+can you create a folder named Downloads right now,create_folder,Downloads
+"um, remove folder Photos lol",delete_folder,Photos
+"okay, do we have a file called config.txt lol...",search_file,config.txt
+can you rename timetable.html now I need it urgently,rename_file,timetable.html
+"UM, renAmE tHE pRojecTs folDeR IF POSSible",rename_folder,Projects
+"so, rename the downloads folder if possible",rename_folder,Downloads
+can you get rid of the Archive folder ty,delete_folder,Archive
+"so, next song thanks.",next_song,
+quickly unmute when you can!!,unmute,
+yo take me to gmail.com lol...,open_url,gmail.com
+bro unpause it when you can,resume_music,
+can you resume music,resume_music,
+"actually, take me to youtube.com if possible",open_url,youtube.com
+would you skip this song...,next_song,
+can you rename script.txt,rename_file,script.txt
+"um, move invoice.xlsx to another folder right now??",move_file,invoice.xlsx
+PLZ RENAME UTILS TO NEWNAME WHEN YOU CAN!!,rename_file,utils
+yo execute command git fetch when you can,run_command,git fetch
+bro search for python vs javascript,search_web,python vs javascript
+"so, rename folder Desktop thanks.",rename_folder,Desktop
+pls load PowerPoint for me,open_app,PowerPoint
+can you move resume.json,move_file,resume.json
+plz open up Android Studio thanks.,open_app,Android Studio
+"okay, pause it for me",pause_music,
+please duplicate app.json...,copy_file,app.json
+please delete folder Family,delete_folder,Family
+please shutdown now if possible!!,shutdown_pc,
+kindly restart my computer lol.,restart_pc,
+hey delete index.html when you can.,delete_file,index.html
+WOULD YOU OPEN SETTINGS PLEASE,open_settings,
+can you I need a new folder called DBMS right now,create_folder,DBMS
+could you dim the screen please,brightness_down,
+bro open project EcoWave...,open_project,EcoWave
+can you make a copy of LICENSE.xlsx for me.,copy_file,LICENSE.xlsx
+kindly rename the Projects folder asap,rename_folder,Projects
+would you run npm install lol,run_command,npm install
+could you look for app.pdf when you can!,search_file,app.pdf
+"uh, pull up README.py for me",search_file,README.py
+can YoU opeN THE MOODQueSt pROject LOL.,open_project,MoodQuest
+"uh, shut down File Explorer asap!",close_app,File Explorer
+bro find report.md ty,search_file,report.md
+"actually, rename the Internship folder for me for today's assignment",rename_folder,Internship
+"uh, move dbms_notes.docx to another folder right now",move_file,dbms_notes.docx
+can you rename report.pptx if possible,rename_file,report.pptx
+"okay, trash the semester4 folder lol before the meeting??",delete_folder,Semester4
+please launch WebStorm!,open_app,WebStorm
+Pls rEmoVe foLDEr dBMS for me.,delete_folder,DBMS
+yo get rid of the file meeting_notes.pdf,delete_file,meeting_notes.pdf
+pls make a copy of invoice_2026 lol,copy_file,invoice_2026
+kindly restart my computer right now.,restart_pc,
+quickly turn off sound when you can before the meeting,mute,
+"um, open project Chat App and then run npm install for me.",multi_intent,Chat App;npm install
+pls move lab_manual.docx to desktop!,move_file,lab_manual.docx
+quickly go back a track real quick,previous_song,
+kindly start project internship project for me,open_project,Internship Project
+plz shut Slack off if possible??,close_app,Slack
+"ok, switch to my marketshield project",open_project,MarketShield
+hey find report.docx and then open it,multi_intent,report.docx
+"um, resume music real quick.",resume_music,
+open Origin please now before the meeting,open_app,Origin
+hey execute command git clone right now,run_command,git clone
+"so, shutdown asap!!",shutdown_pc,
+"um, reboot the pc",restart_pc,
+bro rename the AI folder,rename_folder,AI
+"ok, open Visual Studio Code after run pip install for me",multi_intent,Visual Studio Code;pip install
+can you move script.pdf to another folder ty,move_file,script.pdf
+please turn the volume up now,volume_up,
+"actually, new folder OS ty",create_folder,OS
+would you show clipboard history,clipboard_history,
+"um, boot Slack lol",open_app,Slack
+"okay, restart my computer.",restart_pc,
+"uh, delete folder assignments please",delete_folder,Assignments
+yo copy syllabus please,copy_file,syllabus
+yo get rid of the file LICENSE.js real quick??,delete_file,LICENSE.js
+"ACTUALLY, PREVIOUS SONG PLEASE",previous_song,
+would you duplicate cover_letter.md,copy_file,cover_letter.md
+quickly search the web for weather bengaluru ty.,search_web,weather bengaluru
+yo let's work on ieee paper real quick,open_project,IEEE Paper
+can you rename final_report.docx!!,rename_file,final_report.docx
+quickly lock it ty,lock_pc,
+bro make folder images now so i can browse,create_folder,Images
+hey rename folder archive asap.,rename_folder,Archive
+would you turn the volume down for me!!,volume_down,
+HEY EXECUTE CONDA ACTIVATE TY??,run_command,conda activate
+kindly make a copy of notes.js please so I can browse!!,copy_file,notes.js
+yo set up a folder for DBMS real quick,create_folder,DBMS
+would you run command docker build asap,run_command,docker build
+"actually, set up a folder for IEEE for today's work",create_folder,IEEE
+hey create folder Archive after open it please.,multi_intent,Archive
+yo move presentation_draft.md to Desktop ty for the DBMS lab!,move_file,presentation_draft.md
+"uh, volume up asap it's lagging",volume_up,
+pls copy syllabus.json if possible,copy_file,syllabus.json
+move assignment2.md to another folder for me,move_file,assignment2.md
+can you open project NeoScore and then run git fetch right now.,multi_intent,NeoScore;git fetch
+can you take me to chatgpt.com.,open_url,chatgpt.com
+"actually, resume music please",resume_music,
+"um, google weather bengaluru ty",search_web,weather bengaluru
+rename the photos folder please!!,rename_folder,Photos
+"ok, next song now...",next_song,
+can you move resume.js when you can!,move_file,resume.js
+can you run git clone if possible,run_command,git clone
+"OKAY, LOG OUT OF THIS ACCOUNT PLEASE.",logout,
+"ok, pause it now",pause_music,
+kindly go to linkedin.com now.,open_url,linkedin.com
+"so, rename the Archive folder please",rename_folder,Archive
+could you shutdown now,shutdown_pc,
+quickly lock the screen.,lock_pc,
+yo unmute it,unmute,
+plz set up a folder for Notes when you can...,create_folder,Notes
+"uh, switch to VLC when you can",open_app,VLC
+"actually, sleep mode thanks!",sleep_pc,
+quickly find file todo_list.,search_file,todo_list
+would you I need a new folder called Vacation when you can!,create_folder,Vacation
+"so, run git add . followed by run flask run if possible!",multi_intent,git add .;flask run
+"so, switch to my Weather App project right now",open_project,Weather App
+plz search for cheap flights to goa now,search_web,cheap flights to goa
+"uh, execute command git clone right now for today's assignment.",run_command,git clone
+please banana potato asap,unknown,
+hey search for best laptops 2026 right now,search_web,best laptops 2026
+plz what tech stack did I use for Outlook ty,general_chat,
+"ok, take me to leetcode.com real quick",open_url,leetcode.com
+pls move invoice_2026.py to Desktop right now!!,move_file,invoice_2026.py
+bro shutdown now now,shutdown_pc,
+plz create folder Desktop now,create_folder,Desktop
+quickly make folder Work right now??,create_folder,Work
+"ok, get Paint running when you can",open_app,Paint
+"so, I need a new folder called DBMS if possible!",create_folder,DBMS
+can you move final_report.py asap...,move_file,final_report.py
+hey take me to settings ty,open_settings,
+yo increase volume right now before the meeting.,volume_up,
+please empty trash please!,empty_recycle_bin,
+can you explain Figma,general_chat,
+HEy OPeN TelEgrAM iF pOssIbLe,open_app,Telegram
+"OK, SILENCE IT REAL QUICK!",mute,
+set up a folder for Internship for me,create_folder,Internship
+"so, lock the screen ty.",lock_pc,
+please stop android studio.,close_app,Android Studio
+"so, create folder Music and open it please.",multi_intent,Music
+YO START PLAYING MUSIC FOR ME.,play_music,
+BRO PAUSE THE SONG.,pause_music,
+empty trash,empty_recycle_bin,
+pls start command conda activate ty!,run_command,conda activate
+can you close Zoom asap,close_app,Zoom
+"ok, open settings if possible.",open_settings,
+please pull up recipe app project lol,open_project,Recipe App
+execute command code . ty.,run_command,code .
+yo pause it.,pause_music,
+would you rename the file notes real quick,rename_file,notes
+"ok, look up python vs javascript.",search_web,python vs javascript
+"actually, execute command git fetch when you can",run_command,git fetch
+"UM, LAUNCH NOTEPAD FOR TODAY'S ASSIGNMENT",open_app,Notepad
+pls skip this song asap,next_song,
+kindly pause music ty,pause_music,
+quickly look for config.pptx thanks.,search_file,config.pptx
+plz run git clone now I forgot where it is.,run_command,git clone
+can you start command git pull asap.,run_command,git pull
+can you set up a folder for Semester4 for me,create_folder,Semester4
+bro copy lab_manual.js when you can.,copy_file,lab_manual.js
+yo brightness up,brightness_up,
+hey brightness down lol,brightness_down,
+"uh, execute command conda activate for me I need it urgently",run_command,conda activate
+can you create a folder named games asap,create_folder,Games
+would you volume down!!,volume_down,
+please continue playing thanks,resume_music,
+quickly next song!,next_song,
+"actually, open OS Lab.",open_project,OS Lab
+kindly rename folder vacation lol,rename_folder,Vacation
+can you what did i copy earlier,clipboard_history,
+please execute git pull ty!,run_command,git pull
+pls kill Windows Media Player,close_app,Windows Media Player
+bro I want to use Google Sheets if possible!,open_app,Google Sheets
+plz create folder vacation if possible!,create_folder,Vacation
+"so, brightness up!!",brightness_up,
+hey run git fetch real quick.,run_command,git fetch
+kindly shutdown now.,shutdown_pc,
+"uh, rename test_cases.xlsx to newname if possible",rename_file,test_cases.xlsx
+rename todo.html to newname when you can,rename_file,todo.html
+log me out for me,logout,
+could you move resume_final to another folder asap...,move_file,resume_final
+sleep mode for me,sleep_pc,
+"um, move project_proposal to another folder when you can",move_file,project_proposal
+pls unmute right now.,unmute,
+quickly go to stackoverflow.com now for the DBMS lab,open_url,stackoverflow.com
+can you close visual studio if possible,close_app,Visual Studio
+"so, make the screen brighter when you can I need it urgently??",brightness_up,
+"um, Terminal crashed on me yesterday if possible.",general_chat,
+would you launch Minecraft Launcher then launch Settings??,multi_intent,Minecraft Launcher;Settings
+could you set up a folder for Documents now,create_folder,Documents
+could you lock the screen asap!,lock_pc,
+empty the recycle bin.,empty_recycle_bin,
+bro open the site github.com please!!,open_url,github.com
+would you delete folder DBMS thanks!,delete_folder,DBMS
+"ok, shutdown before close Chrome.",multi_intent,Chrome
+plz make the screen brighter ty,brightness_up,
+"actually, run command git status lol.",run_command,git status
+can you trash config.py now.,delete_file,config.py
+"ActualLY, delETE LaB_mAnual.pDf AsAP.",delete_file,lab_manual.pdf
+bro open visual studio code asap,open_app,Visual Studio Code
+thank you right now,general_chat,
+KindLy VISiT GMail.com tHanks,open_url,gmail.com
+yo copy os_lab.xlsx lol.,copy_file,os_lab.xlsx
+quickly rename the file invoice_2026.txt for me,rename_file,invoice_2026.txt
+can you move config.xlsx lol...,move_file,config.xlsx
+bro log out of this account real quick,logout,
+plz lock my pc when you can!,lock_pc,
+plz play music.,play_music,
+yo visit leetcode.com please because I need Gmail,open_url,leetcode.com
+"actually, unpause it real quick",resume_music,
+could you I need a new folder called Projects asap,create_folder,Projects
+please rename folder Family lol,rename_folder,Family
+close down google docs if possible,close_app,Google Docs
+can you rename resume.js right now,rename_file,resume.js
+delete folder games asap,delete_folder,Games
+please quit OneNote for me,close_app,OneNote
+yo pause music real quick!,pause_music,
+pls bring up Control Panel ty.,open_app,Control Panel
+could you copy package.json if possible,copy_file,package.json
+can you rename folder Music for me.,rename_folder,Music
+please i'm looking for presentation_draft.md thanks,search_file,presentation_draft.md
+plz sleep mode when you can,sleep_pc,
+can you rename meeting_notes.js,rename_file,meeting_notes.js
+kindly run command python main.py now,run_command,python main.py
+can you close CLion when you can.,close_app,CLion
+please mute if possible for today's work,mute,
+"uh, screenshot this ty",take_screenshot,
+bro I need a new folder called Java when you can.,create_folder,Java
+can you open Settings right now,open_app,Settings
+plz new folder Archive??,create_folder,Archive
+yo skip this song real quick!,next_song,
+can you rename requirements real quick??,rename_file,requirements
+"ok, go to github.com.",open_url,github.com
+"okay, shut Minecraft Launcher off",close_app,Minecraft Launcher
+hey make a copy of notes.css please!!,copy_file,notes.css
+yo pause it if possible,pause_music,
+quickly pause the song.,pause_music,
+pLeASe teRminatE aNDrOiD sTudIo IF PoSSiBLe.,close_app,Android Studio
+pls close down File Explorer now,close_app,File Explorer
+rename folder AI thanks.,rename_folder,AI
+please sleep now ty,sleep_pc,
+bro remove folder DBMS real quick??,delete_folder,DBMS
+hey turn the volume up lol,volume_up,
+quickly open chrome beta,open_app,Chrome Beta
+can you move meeting_notes.pptx for me!,move_file,meeting_notes.pptx
+"so, pause music real quick",pause_music,
+move assignment2.js to desktop,move_file,assignment2.js
+"okay, rename the file report.md when you can!!",rename_file,report.md
+can you rename the file meeting_notes.xlsx thanks??,rename_file,meeting_notes.xlsx
+pls bring up vlc please!,open_app,VLC
+could you rename cover_letter.js to newname for me,rename_file,cover_letter.js
+yo get rid of the file presentation_draft.pdf real quick!,delete_file,presentation_draft.pdf
+please play music if possible...,play_music,
+"uh, start CMD thanks??",open_app,CMD
+quickly open my DBMS Project project.,open_project,DBMS Project
+would you get rid of the file presentation_draft.txt!!,delete_file,presentation_draft.txt
+"okay, find requirements.md and then open it!",multi_intent,requirements.md
+could you i'm proud of how settings turned out...,general_chat,
+would you make a copy of lab_manual.json for me.,copy_file,lab_manual.json
+would you find file utils.md if possible,search_file,utils.md
+PLEASE RANDOM TEXT,unknown,
+could you unmute it.,unmute,
+kindly search the web for how to center a div please,search_web,how to center a div
+can you rename assignment1.html right now,rename_file,assignment1.html
+"actually, recipe app is amazing thanks",general_chat,
+hey take a screenshot now,take_screenshot,
+KINdLY LoGOUt noW THAnkS.,logout,
+can you explain HackArena when you can,general_chat,
+bro I'm looking for style if possible,search_file,style
+"uh, delete folder os",delete_folder,OS
+can you rename os_lab.txt if possible...,rename_file,os_lab.txt
+bro load project Portfolio v2 now,open_project,Portfolio v2
+bro trash resume_latest.css for me!!,delete_file,resume_latest.css
+yo sleep mode asap,sleep_pc,
+pls I need a new folder called Screenshots asap,create_folder,Screenshots
+quickly delete utils.html real quick??,delete_file,utils.html
+bro unpause it.,resume_music,
+"ok, rename the DBMS folder",rename_folder,DBMS
+hey unmute it,unmute,
+"uh, rename the work folder if possible",rename_folder,Work
+pls unmute if possible.,unmute,
+yo execute command git push for me,run_command,git push
+pls rename budget.pdf to newname real quick,rename_file,budget.pdf
+can you move dbms_notes.py lol.,move_file,dbms_notes.py
+please trash todo.pptx right now.,delete_file,todo.pptx
+"ok, rename LICENSE.pdf to newname asap!!",rename_file,LICENSE.pdf
+BRO VISIT LEETCODE.COM TY!!,open_url,leetcode.com
+plz open onenote now i forgot where it is,open_app,OneNote
+please unpause it asap...,resume_music,
+"actually, trash the IEEE folder for me??",delete_folder,IEEE
+bro let's open windows media player,open_app,Windows Media Player
+"actually, sleep now lol",sleep_pc,
+search for next.js tutorial,search_web,next.js tutorial
+quickly reboot the pc if possible.,restart_pc,
+let's work on SummAize if possible!,open_project,SummAize
+"um, start playing music lol!!",play_music,
+hey show clipboard history for me,clipboard_history,
+"so, let's work on NeoScore please",open_project,NeoScore
+please execute docker compose up lol,run_command,docker compose up
+HEY maKE A CopY of PPT_FiNal.jSOn,copy_file,ppt_final.json
+bro volume down when you can,volume_down,
+bro play the next track real quick!!,next_song,
+pls silence it lol.,mute,
+please turn the volume down right now,volume_down,
+please volume up when you can,volume_up,
+rename todo.html to newname real quick,rename_file,todo.html
+"actually, run cargo build, run git pull asap",multi_intent,cargo build;git pull
+"actually, brightness down when you can.",brightness_down,
+please turn the volume down please because I need Gmail??,volume_down,
+pls search for best laptops 2026 lol!,search_web,best laptops 2026
+plz restart my computer asap for today's work,restart_pc,
+plz rename the OS folder please??,rename_folder,OS
+"uh, execute pip install asap",run_command,pip install
+could you remove main.py lol!!,delete_file,main.py
+quickly move shopping_list.json to another folder because i need gmail,move_file,shopping_list.json
+could you remove folder Work right now,delete_folder,Work
+can you volume up when you can,volume_up,
+yo turn sound back on real quick,unmute,
+quickly make a copy of assignment1.js if possible,copy_file,assignment1.js
+"so, shutdown followed by close Lightroom right now",multi_intent,Lightroom
+can you delete todo.txt thanks??,delete_file,todo.txt
+please lock it ty,lock_pc,
+can you delete main.json right now,delete_file,main.json
+could you remove folder DBMS please...,delete_folder,DBMS
+would you rename the Downloads folder real quick!!,rename_folder,Downloads
+please open project FinSkin followed by run npm test!,multi_intent,FinSkin;npm test
+"ok, previous song ty because I need Gmail",previous_song,
+"uh, rename invoice.py to newname now",rename_file,invoice.py
+"ok, rename the Python folder please",rename_folder,Python
+kindly Snipping Tool crashed on me yesterday now.,general_chat,
+quickly rename timetable.json to newname when you can for the dbms lab,rename_file,timetable.json
+can you move invoice.py asap!!,move_file,invoice.py
+plz pause music right now??,pause_music,
+quickly trash the Hackathon folder if possible,delete_folder,Hackathon
+quickly remove invoice.txt right now.,delete_file,invoice.txt
+can you delete resume.js.,delete_file,resume.js
+"um, move summary.pptx to Desktop lol!",move_file,summary.pptx
+"actually, delete style.xlsx thanks for today's work.",delete_file,style.xlsx
+can you bring up WhatsApp right now,open_app,WhatsApp
+please previous song lol,previous_song,
+bro unmute for me,unmute,
+kindly open project budget tracker after run docker compose up real quick,multi_intent,Budget Tracker;docker compose up
+hey remove folder Work real quick,delete_folder,Work
+plz let's work on chat app for me.,open_project,Chat App
+"ok, rename the file Dockerfile.pptx.",rename_file,Dockerfile.pptx
+can you unpause it ty,resume_music,
+can you rename meeting_notes.json ty!,rename_file,meeting_notes.json
+plz put the pc to sleep right now.,sleep_pc,
+pls pull up draft real quick I need it urgently,search_file,draft
+quickly create directory work.,create_folder,Work
+"ok, resume music if possible...",resume_music,
+"so, play something",play_music,
+PLZ RENAME THE DBMS FOLDER REAL QUICK,rename_folder,DBMS
+kindly move report.pptx to desktop...,move_file,report.pptx
+could you open file todo_list.py right now,search_file,todo_list.py
+"ok, run python main.py ty!",run_command,python main.py
+pls execute git merge when you can,run_command,git merge
+please open leetcode.com lol,open_url,leetcode.com
+"okay, unmute it asap.",unmute,
+hey look up cheap flights to goa thanks I forgot where it is,search_web,cheap flights to goa
+pls rename assignment1.pptx to newname,rename_file,assignment1.pptx
+kindly play the next track right now,next_song,
+"actually, lower the brightness thanks.",brightness_down,
+could you locate README.md please.,search_file,README.md
+hey launch project Compiler Project,open_project,Compiler Project
+plz I need Chrome shut down now lol!,close_app,Chrome
+HEY MUTE THE SOUND ASAP,mute,
+can you capture the screen lol,take_screenshot,
+plz let's work on Todo App thanks,open_project,Todo App
+would you make the screen brighter now,brightness_up,
+could you restart my computer now...,restart_pc,
+can you move resume real quick before the meeting,move_file,resume
+COULD YOU ...... LOL FOR TODAY'S WORK!!,unknown,
+"um, rename notes_final.md to newname lol.",rename_file,notes_final.md
+"ok, delete style.xlsx",delete_file,style.xlsx
+plz skip this song ty,next_song,
+bro remove folder school lol,delete_folder,School
+could you restart my computer ty,restart_pc,
+would you shutdown followed by close discord asap!!,multi_intent,Discord
+can you move license.docx please,move_file,LICENSE.docx
+could you open project Aquina and then run git merge real quick??,multi_intent,Aquina;git merge
+can you create a folder named Screenshots now!!,create_folder,Screenshots
+can you rename script.json lol!,rename_file,script.json
+CAN YOU RENAME REPORT,rename_file,report
+"uh, unpause it thanks",resume_music,
+HEY LOWER THE VOLUME,volume_down,
+can you open the chatbot project thanks,open_project,ChatBot
+pls rename the file todo.py right now!!,rename_file,todo.py
+"okay, have you used CMD before asap",general_chat,
+yo unmute now.,unmute,
+open WhatsApp thanks,open_app,WhatsApp
+quickly make a copy of config.js ty.,copy_file,config.js
+hey copy resume_final.css asap.,copy_file,resume_final.css
+bro trash assignment2.py,delete_file,assignment2.py
+pls remove index.py when you can,delete_file,index.py
+"okay, duplicate LICENSE.docx right now",copy_file,LICENSE.docx
+yo rename folder Downloads for the DBMS lab??,rename_folder,Downloads
+"okay, pull up marketshield project if possible.",open_project,MarketShield
+PLEASE EXECUTE CARGO BUILD PLEASE,run_command,cargo build
+can you run cargo run right now,run_command,cargo run
+can you move lab_manual for me!,move_file,lab_manual
+"so, is visual studio code better than its competitors.",general_chat,
+would you get rid of the images folder!!,delete_folder,Images
+kindly lock my pc thanks.,lock_pc,
+plz increase brightness ty,brightness_up,
+"okay, open clipboard manager for me",clipboard_history,
+google cheap flights to goa real quick.,search_web,cheap flights to goa
+would you remove folder Videos asap!,delete_folder,Videos
+"okay, make a copy of requirements.txt!",copy_file,requirements.txt
+would you remove folder Desktop for me!,delete_folder,Desktop
+"actually, take me to settings real quick",open_settings,
+kindly rename the file project_proposal.txt when you can,rename_file,project_proposal.txt
+can you lower the volume asap,volume_down,
+"so, turn the volume up now...",volume_up,
+"so, find file style.pptx please",search_file,style.pptx
+FIND FILE MAIN.MD THANKS,search_file,main.md
+"OK, PULL UP MOVIE RECOMMENDER PROJECT LOL",open_project,Movie Recommender
+"SO, TAKE ME TO LINKEDIN.COM RIGHT NOW",open_url,linkedin.com
+hey close task manager before open notepad if possible,multi_intent,Task Manager;Notepad
+kindly todo app has a memory leak asap,general_chat,
+can you get After Effects running if possible??,open_app,After Effects
+would you previous song lol,previous_song,
+"uh, rename folder desktop lol!!",rename_folder,Desktop
+"uh, rename the file resume!",rename_file,resume
+"okay, let's work on internship project lol...",open_project,Internship Project
+pls i'm looking for presentation_draft.txt please,search_file,presentation_draft.txt
+can you sign out thanks,logout,
+"okay, look for presentation_draft.md",search_file,presentation_draft.md
+"UH, SHUT DOWN PHOTOSHOP.",close_app,Photoshop
+"ok, thanks a lot asap",general_chat,
+could you rename the Backup folder,rename_folder,Backup
+"uh, open the site gmail.com now",open_url,gmail.com
+rename dbms_notes.docx to newname right now!!,rename_file,dbms_notes.docx
+would you open the site leetcode.com for me.,open_url,leetcode.com
+can you move shopping_list.xlsx thanks,move_file,shopping_list.xlsx
+please I want to use PowerPoint??,open_app,PowerPoint
+"um, find file report right now",search_file,report
+please find file app lol!!,search_file,app
+hey open project E-commerce Site,open_project,E-commerce Site
+kindly go to gmail.com if possible!!,open_url,gmail.com
+can you rename syllabus.md please!,rename_file,syllabus.md
+quickly unmute it so I can browse,unmute,
+would you stop Skype lol,close_app,Skype
+clear trash real quick,empty_recycle_bin,
+can you rename index.py real quick because I need Gmail,rename_file,index.py
+hey unmute asap i forgot where it is,unmute,
+"uh, rename package.xlsx to newname.",rename_file,package.xlsx
+"uh, where is ppt_final.py",search_file,ppt_final.py
+"ok, pause the song please.",pause_music,
+pls Calculator App is my favorite app,general_chat,
+hey previous song right now,previous_song,
+"so, I need a new folder called OS.",create_folder,OS
+"okay, visit stackoverflow.com!",open_url,stackoverflow.com
+open the site linkedin.com if possible,open_url,linkedin.com
+can you run git clone now,run_command,git clone
+hey remove index.py if possible so I can browse,delete_file,index.py
+"ACTUALLY, MOVE ASSIGNMENT1.DOCX TO DESKTOP IF POSSIBLE.",move_file,assignment1.docx
+KInDly UnPAUSE It ty I fOrGOt wHere it iS,resume_music,
+"okay, volume up if possible",volume_up,
+"pls shutdown, close Epic Games!",multi_intent,Epic Games
+quickly rename the Projects folder,rename_folder,Projects
+"um, remove folder Semester4 for today's assignment.",delete_folder,Semester4
+heY lOaD pRoJeCT RideWiSE ASAP,open_project,RideWise
+"actually, visit stackoverflow.com",open_url,stackoverflow.com
+"ok, remove folder React real quick I need it urgently.",delete_folder,React
+"actually, resume music",resume_music,
+CaN YOU MOVe packAgE.JsON wHEN YOU CAN.,move_file,package.json
+can you create a folder named React now.,create_folder,React
+would you start playing music asap,play_music,
+kindly next song when you can so I can browse,next_song,
+could you shut down file explorer if possible??,close_app,File Explorer
+plz locate index.txt lol,search_file,index.txt
+"uh, sleep now when you can",sleep_pc,
+quickly play the last song,previous_song,
+quickly make it quieter ty,volume_down,
+can you delete resume_final.js thanks,delete_file,resume_final.js
+get rid of the file syllabus.py.,delete_file,syllabus.py
+"uh, execute code . ty",run_command,code .
+"uh, trash the Photos folder...",delete_folder,Photos
+hey make a folder called desktop right now,create_folder,Desktop
+random text ty??,unknown,
+yo delete utils.pdf if possible,delete_file,utils.pdf
+open premiere pro please ty,open_app,Premiere Pro
+kindly take me to linkedin.com for today's work,open_url,linkedin.com
+bro open the site gmail.com please before the meeting.,open_url,gmail.com
+please take me to settings when you can??,open_settings,
+pls hmmmm if possible,unknown,
+could you let's work on todo app if possible...,open_project,Todo App
+"ACTUALLY, DUPLICATE ASSIGNMENT1.PPTX RIGHT NOW",copy_file,assignment1.pptx
+please is Canva better than its competitors lol,general_chat,
+pls lock my pc if possible!,lock_pc,
+"actually, make a copy of main.json lol!!",copy_file,main.json
+hey lower the volume for me...,volume_down,
+can you search for todo real quick.,search_file,todo
+quickly get rid of the file Dockerfile.html,delete_file,Dockerfile.html
+can you copy project_proposal.pdf thanks.,copy_file,project_proposal.pdf
+hey open up cmd if possible,open_app,CMD
+kindly E-commerce Site has a memory leak thanks.,general_chat,
+would you look up how to center a div lol,search_web,how to center a div
+"actually, remove ppt_final.txt",delete_file,ppt_final.txt
+"okay, start playing music if possible.",play_music,
+can you move dbms_notes.xlsx now,move_file,dbms_notes.xlsx
+can you shutdown now thanks...,shutdown_pc,
+"ok, mute the sound when you can",mute,
+bro show clipboard history asap!,clipboard_history,
+can you trash Dockerfile.pdf asap,delete_file,Dockerfile.pdf
+please I like ContractPulse!,general_chat,
+please move test_cases.css to another folder when you can,move_file,test_cases.css
+"so, unmute it.",unmute,
+"uh, look for meeting_notes.txt because I need Gmail",search_file,meeting_notes.txt
+kindly lock the screen right now for today's work,lock_pc,
+"ok, show clipboard history",clipboard_history,
+PLEASE EXECUTE DOCKER BUILD,run_command,docker build
+what tech stack did i use for after effects now,general_chat,
+bro look for project_proposal.xlsx ty,search_file,project_proposal.xlsx
+quickly screenshot this ty,take_screenshot,
+rename test_cases to newname real quick,rename_file,test_cases
+bro continue playing for me,resume_music,
+"um, open project flask api after run explorer . if possible??",multi_intent,Flask API;explorer .
+can you turn the volume down real quick.,volume_down,
+can you move assignment2.pptx to another folder if possible,move_file,assignment2.pptx
+please continue playing,resume_music,
+do we have a file called assignment2.docx,search_file,assignment2.docx
+"ok, lock now for the dbms lab",lock_pc,
+could you run command docker build,run_command,docker build
+brightness down lol before the meeting,brightness_down,
+yo rename the Semester4 folder for me.,rename_folder,Semester4
+would you put the pc to sleep lol!,sleep_pc,
+plz increase volume ty,volume_up,
+could you silence it thanks.,mute,
+"UM, fINd cOnFig.xLSx Ty",search_file,config.xlsx
+kindly create folder Desktop then open it thanks!,multi_intent,Desktop
+"OK, MAKE IT QUIETER LOL",volume_down,
+"so, go to gmail.com for today's assignment!!",open_url,gmail.com
+CAN YOU MAKE FOLDER ASSIGNMENTS,create_folder,Assignments
+please restart my computer for me,restart_pc,
+can you close Google Chrome if possible??,close_app,Google Chrome
+yo shutdown then close Chrome real quick.,multi_intent,Chrome
+hey shutdown now,shutdown_pc,
+yo turn the volume down for me,volume_down,
+"so, make folder Work when you can",create_folder,Work
+yo execute command pip freeze ty??,run_command,pip freeze
+can you I really like using Internship Project thanks,general_chat,
+can you let's work on resume website for me,open_project,Resume Website
+pls Movie Recommender uses too much RAM ty!,general_chat,
+"ok, do we have a file called assignment2.docx if possible!",search_file,assignment2.docx
+hey capture the screen.,take_screenshot,
+"ACTUALLY, RESTART MY COMPUTER ASAP.",restart_pc,
+"okay, make a copy of main.md thanks",copy_file,main.md
+bro move final_report.md to another folder when you can,move_file,final_report.md
+please quit Paint ty.,close_app,Paint
+"so, make it quieter now.",volume_down,
+can you shut Excel off before the meeting,close_app,Excel
+would you empty trash asap,empty_recycle_bin,
+cOulD yoU tELL me about THE muSiC playEr APp project RiGHt nOw,general_chat,
+yo launch after effects when you can,open_app,After Effects
+"actually, volume down real quick",volume_down,
+can you unpause it if possible.,resume_music,
+plz open visual studio code,open_app,Visual Studio Code
+can you move resume.css real quick!,move_file,resume.css
+yo capture the screen when you can??,take_screenshot,
+yo brightness down real quick!,brightness_down,
+hey where is invoice_2026.html ty.,search_file,invoice_2026.html
+CAN YOU RENAME SUMMARY.TXT LOL,rename_file,summary.txt
+WOULD YOU MOVE INVOICE_2026.PY TO DESKTOP PLEASE,move_file,invoice_2026.py
+could you next song,next_song,
+"um, i need to change a setting if possible",open_settings,
+"uh, make folder School if possible",create_folder,School
+plz google cheap flights to goa please!,search_web,cheap flights to goa
+"so, run docker build thanks I forgot where it is",run_command,docker build
+yo rename the Python folder asap,rename_folder,Python
+can you rename the file app.pptx real quick,rename_file,app.pptx
+"so, search for weather bengaluru",search_web,weather bengaluru
+please lock now right now for today's assignment!,lock_pc,
+kindly rename requirements.txt to newname real quick,rename_file,requirements.txt
+could you show clipboard history real quick,clipboard_history,
+"uh, clear trash when you can!",empty_recycle_bin,
+unmute it lol.,unmute,
+would you pause the song if possible,pause_music,
+"ok, unmute now",unmute,
+please rename project_proposal.docx to newname right now!,rename_file,project_proposal.docx
+"um, 12345 right now",unknown,
+quickly pause the song for me.,pause_music,
+quickly reboot the pc please,restart_pc,
+could you look for project_proposal.xlsx if possible.,search_file,project_proposal.xlsx
+could you google python vs javascript,search_web,python vs javascript
+make a copy of resume.docx when you can,copy_file,resume.docx
+WOULD YOU HOW DO I FIX THIS BUG,general_chat,
+yo move invoice_2026.pdf to Desktop when you can,move_file,invoice_2026.pdf
+"uh, run npm start and run npm start lol",multi_intent,npm start;npm start
+"Um, sHuT down the PC",shutdown_pc,
+quickly google best laptops 2026 lol,search_web,best laptops 2026
+"actually, screenshot this now.",take_screenshot,
+could you pause music if possible!,pause_music,
+COUld You STArt cOMMaND NPM Test!,run_command,npm test
+rENAme The fILe bUDgeT.jSON wHeN yoU Can,rename_file,budget.json
+yo brightness up ty!,brightness_up,
+play a song if possible.,play_music,
+pls sign out now.,logout,
+could you make a copy of Dockerfile.css if possible,copy_file,Dockerfile.css
+"ok, move os_lab.pptx to Desktop if possible",move_file,os_lab.pptx
+quickly trash the Photos folder asap,delete_folder,Photos
+bro lower the brightness please,brightness_down,
+"uh, I need to change a setting now for today's assignment",open_settings,
+"um, rename the Python folder now it's lagging",rename_folder,Python
+increase volume,volume_up,
+"okay, resume music!",resume_music,
+kindly lower the volume real quick!,volume_down,
+"ok, brightness up.",brightness_up,
+quickly move os_lab.xlsx to Desktop thanks,move_file,os_lab.xlsx
+"okay, what tech stack did I use for Portfolio please",general_chat,
+bro open the site leetcode.com,open_url,leetcode.com
+quickly spin up Visual Studio if possible...,open_app,Visual Studio
+"uh, make folder archive thanks.",create_folder,Archive
+plz resume music please before the meeting,resume_music,
+"actually, pause music thanks",pause_music,
+bro look up next.js tutorial,search_web,next.js tutorial
+can you delete notes_final.pdf,delete_file,notes_final.pdf
+kindly run Chrome if possible,open_app,Chrome
+"uh, rename folder java thanks.",rename_folder,Java
+"ok, Teams has a memory leak now",general_chat,
+can you rename style.txt real quick??,rename_file,style.txt
+rename assignment1.pptx to newname ty.,rename_file,assignment1.pptx
+pls what did I copy earlier if possible,clipboard_history,
+bro move config.html to desktop when you can!,move_file,config.html
+"ok, Weather App has a memory leak for me!",general_chat,
+"um, make it louder for me",volume_up,
+can you close brave please,close_app,Brave
+kiNdLy DELeTe FOLdER dbMS ty.,delete_folder,DBMS
+yo rename folder internship,rename_folder,Internship
+bro copy notes.pdf...,copy_file,notes.pdf
+bro google cheap flights to goa please,search_web,cheap flights to goa
+would you pause the song,pause_music,
+can you resume music if possible,resume_music,
+"okay, pull up test_cases.js.",search_file,test_cases.js
+"so, open discord followed by run git push when you can.",multi_intent,Discord;git push
+"actually, let's open webstorm if possible.",open_app,WebStorm
+please I like Canva asap!,general_chat,
+kindly brightness up real quick,brightness_up,
+can you rename draft.json please.,rename_file,draft.json
+could you rename os_lab.html to newname,rename_file,os_lab.html
+could you please open Notepad thanks.,open_app,Notepad
+could you next song right now.,next_song,
+kindly delete folder portfolio if possible!,delete_folder,Portfolio
+pLs ClOsE sETtiNGS thAnkS!,close_app,Settings
+remove folder images for me,delete_folder,Images
+open firefox please for me for today's work,open_app,Firefox
+CAN YOU MOVE DOCKERFILE.PPTX WHEN YOU CAN,move_file,Dockerfile.pptx
+"uh, start project parcelvision i forgot where it is",open_project,ParcelVision
+please what tech stack did I use for ChatBot,general_chat,
+would you turn the volume up when you can,volume_up,
+"so, load Chrome Beta right now",open_app,Chrome Beta
+"so, what is vlc for me",general_chat,
+CAN YOU MOVE LAB_MANUAL NOW BECAUSE I NEED GMAIL,move_file,lab_manual
+bro delete utils.pdf please,delete_file,utils.pdf
+plz delete index.pptx ty,delete_file,index.pptx
+can you play a song ty,play_music,
+plz open settings now,open_settings,
+could you end Outlook lol!!,close_app,Outlook
+bro rename the Photos folder if possible,rename_folder,Photos
+"ok, search the web for cheap flights to goa!",search_web,cheap flights to goa
+bro visit google.com lol...,open_url,google.com
+bro dim the screen please.,brightness_down,
+bro play a song if possible.,play_music,
+yo turn off sound right now,mute,
+would you run git clone thanks,run_command,git clone
+can you execute command git clone right now!!,run_command,git clone
+bro remove summary.pdf??,delete_file,summary.pdf
+yo play the next track asap for today's work.,next_song,
+kindly go to youtube.com when you can,open_url,youtube.com
+"ok, let's work on resume website it's lagging!",open_project,Resume Website
+"ok, rename package.docx to newname now!!",rename_file,package.docx
+pls visit github.com real quick,open_url,github.com
+"ok, unmute it when you can.",unmute,
+yo rename the Screenshots folder ty,rename_folder,Screenshots
+duplicate resume.py!!,copy_file,resume.py
+can you shutdown now right now...,shutdown_pc,
+pls open Visual Studio lol,open_app,Visual Studio
+can you delete notes_final.pdf please.,delete_file,notes_final.pdf
+could you turn off my computer ty!!,shutdown_pc,
+"actually, look up how to center a div before the meeting",search_web,how to center a div
+hey mAKe it QUiEtEr tY.,volume_down,
+would you unpause it asap!,resume_music,
+would you open project neoscore so i can browse,open_project,NeoScore
+hey get rid of Visual Studio Code,close_app,Visual Studio Code
+"okay, get rid of the OS folder",delete_folder,OS
+"uh, hey, pull up Photoshop if possible",open_app,Photoshop
+"OK, RenamE tHE pORtfoLiO FoLdeR noW",rename_folder,Portfolio
+"okay, search for invoice_2026.css for me...",search_file,invoice_2026.css
+make a copy of notes.css when you can,copy_file,notes.css
+PLEASE OPEN MY CAREBRIDGEAI PROJECT RIGHT NOW,open_project,CareBridgeAI
+rEnaME FOLDer rESuMe wheN YOU Can,rename_folder,Resume
+please play something now,play_music,
+would you go to linkedin.com please.,open_url,linkedin.com
+could you unpause it!,resume_music,
+"ok, increase brightness please...",brightness_up,
+"uh, rename lab_manual.json to newname right now",rename_file,lab_manual.json
+"okay, shut down the pc",shutdown_pc,
+"so, shut WhatsApp off thanks.",close_app,WhatsApp

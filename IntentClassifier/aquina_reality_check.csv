@@ -1,0 +1,18 @@
+text,intent,slot
+yo pull up vscode real quick,open_app,VS Code
+can u kill spotify its being weird,close_app,Spotify
+wheres that resume pdf i made last week,search_file,resume.pdf
+make a new folder for the hackathon stuff,create_folder,Hackathon
+lets get back into aquina,open_project,Aquina
+run the dev server,run_command,npm run dev
+aquina has been going really well lately,general_chat,
+whats chrome doing eating all my ram,general_chat,
+delete that old invoice pdf,delete_file,invoice.pdf
+can you rename my report file,rename_file,report.docx
+go to github real quick,open_url,github.com
+google how to center a div,search_web,how to center a div
+put this thing to sleep,sleep_pc,
+turn it up a bit,volume_up,
+skip this song,next_song,
+open chrome and then vscode,multi_intent,Chrome;VS Code
+asdkjfh,unknown,
