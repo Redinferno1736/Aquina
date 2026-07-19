@@ -1,0 +1,68 @@
+/* Add this file's contents to your global stylesheet (e.g. index.css),
+   or import it directly: import "./button-glow.css" */
+
+.glow-btn {
+  transition: transform 250ms ease, box-shadow 250ms ease, border-color 250ms ease;
+  will-change: transform, box-shadow;
+}
+
+.glow-btn:hover {
+  transform: translateY(-2px) scale(1.02);
+}
+
+/* ---------- Blue — Code, Projects, AI Assistant ---------- */
+.glow-blue {
+  border-color: rgba(37, 99, 235, 0.55);
+  box-shadow:
+    0 0 0 1px rgba(37, 99, 235, 0.28),
+    0 0 14px rgba(37, 99, 235, 0.28),
+    0 0 26px rgba(37, 99, 235, 0.16);
+}
+
+.glow-blue:hover {
+  border-color: rgba(96, 165, 250, 0.9);
+  box-shadow:
+    0 0 0 1px rgba(37, 99, 235, 0.5),
+    0 10px 28px -6px rgba(37, 99, 235, 0.55),
+    0 0 20px rgba(37, 99, 235, 0.55),
+    0 0 42px rgba(37, 99, 235, 0.35);
+}
+
+/* ---------- Red — Notes, Terminal ---------- */
+.glow-red {
+  border-color: rgba(220, 38, 38, 0.55);
+  box-shadow:
+    0 0 0 1px rgba(220, 38, 38, 0.28),
+    0 0 14px rgba(220, 38, 38, 0.28),
+    0 0 26px rgba(220, 38, 38, 0.16);
+}
+
+.glow-red:hover {
+  border-color: rgba(248, 113, 113, 0.9);
+  box-shadow:
+    0 0 0 1px rgba(220, 38, 38, 0.5),
+    0 10px 28px -6px rgba(220, 38, 38, 0.55),
+    0 0 20px rgba(220, 38, 38, 0.55),
+    0 0 42px rgba(220, 38, 38, 0.35);
+}
+
+/* ---------- Safe Mode pill: half blue / half red border, kept as two
+   distinct colors (not blended) — glows red on hover ---------- */
+.glow-safe {
+  border-width: 1.5px;
+  border-style: solid;
+  border-color: transparent;
+  border-image: linear-gradient(90deg, #2563eb 0%, #2563eb 50%, #dc2626 50%, #dc2626 100%) 1;
+  box-shadow:
+    -6px 0 16px -4px rgba(37, 99, 235, 0.45),
+    6px 0 16px -4px rgba(220, 38, 38, 0.45);
+}
+
+.glow-safe:hover {
+  border-image: linear-gradient(90deg, #dc2626 0%, #dc2626 100%) 1;
+  box-shadow:
+    0 0 0 1px rgba(220, 38, 38, 0.55),
+    0 10px 28px -6px rgba(220, 38, 38, 0.6),
+    0 0 22px rgba(220, 38, 38, 0.6),
+    0 0 44px rgba(220, 38, 38, 0.38);
+}

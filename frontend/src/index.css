@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+    margin: 0;
+  }
+
+  body {
+    @apply font-body text-ink-primary bg-[#0a1c2b] antialiased overflow-hidden;
+    user-select: none;
+  }
+
+  ::selection {
+    @apply bg-accent-blueSoft;
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+}
+
+@layer components {
+  /* Reusable glass panel used by every card on the dashboard */
+  .panel {
+    @apply bg-panel border border-panel-border rounded-panel backdrop-blur-panel shadow-panel
+      transition-colors duration-200;
+  }
+  .panel:hover {
+    @apply border-panel-borderHover;
+  }
+
+  .panel-header {
+    @apply flex items-center justify-between mb-3;
+  }
+
+  .panel-title {
+    @apply flex items-center gap-2 text-[13px] font-semibold tracking-tight text-ink-primary;
+  }
+  .panel-title svg {
+    @apply w-[15px] h-[15px] text-accent-blue;
+  }
+
+  .dropdown-pill {
+    @apply flex items-center gap-1 text-[11px] text-ink-secondary bg-white/5 border border-panel-border
+      rounded-lg px-2.5 py-1;
+  }
+
+  .icon-btn {
+    @apply flex items-center justify-center w-6 h-6 rounded-lg border border-panel-border bg-white/[0.04]
+      text-ink-secondary;
+  }
+
+  .live-dot {
+    @apply w-[7px] h-[7px] rounded-full bg-accent-green inline-block;
+    box-shadow: 0 0 6px theme("colors.accent.green");
+  }
+
+  .legend-dot {
+    @apply w-2 h-2 rounded-[2px] flex-shrink-0;
+  }
+
+  .tag-pill {
+    @apply text-[9.5px] font-semibold px-2 py-[3px] rounded-full flex-shrink-0;
+  }
+  .tag-red {
+    @apply text-accent-red bg-accent-redSoft;
+  }
+  .tag-blue {
+    @apply text-accent-blue bg-accent-blueSoft;
+  }
+  .tag-orange {
+    color: theme("colors.platform.codechef");
+    background: rgba(201, 106, 53, 0.16);
+  }
+
+  /* Safe Mode "cold" temperature swap — applied at the app-shell level */
+  .temp-safe {
+    filter: saturate(0.55);
+  }
+}
