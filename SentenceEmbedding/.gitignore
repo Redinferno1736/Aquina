@@ -1,0 +1,31 @@
+data/
+index/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment (if you created one inside this folder)
+venv/
+.venv/
+env/
+
+# HuggingFace / sentence-transformers model download cache
+.cache/
+*.cache
+
+# Environment variables / secrets, if you ever add API keys etc.
+.env
+*.env
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
