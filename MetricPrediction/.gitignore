@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Raw & processed data (huge, and CodeSearchNet is public/downloadable - no need to version it)
+data/go/
+data/java/
+data/javascript/
+data/php/
+data/python/
+data/ruby/
+data/*.jsonl
+data/*.jsonl.gz
+data/labeled_functions.parquet
+data/smoke_test.parquet
+
+# Cached embeddings (1GB+, regenerable from labeled_functions.parquet + precompute_embeddings.py)
+data/embeddings.pt
+*.pt
+
+# Model checkpoints (regenerable via train_head.py, and some are large)
+models/*.pt
+models/finetuned_model_best.pt
+models/finetuned_model_final.pt
+
+# IDE / OS clutter
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

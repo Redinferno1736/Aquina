@@ -1,0 +1,43 @@
+{
+  "target_mean": 1.3385921716690063,
+  "target_std": 0.5742037296295166,
+  "transform": "log1p_then_standardize",
+  "language_to_id": {
+    "python": 0,
+    "java": 1,
+    "javascript": 2,
+    "php": 3,
+    "ruby": 4,
+    "go": 5
+  },
+  "max_token_len": 512,
+  "backbone": "microsoft/codebert-base",
+  "lang_embed_dim": 16,
+  "per_language_calibration": {
+    "python": {
+      "a": 1.0216596335395784,
+      "b": -0.0011651605738953242
+    },
+    "java": {
+      "a": 1.011004539238861,
+      "b": 0.011414428093364277
+    },
+    "javascript": {
+      "a": 1.034437906810602,
+      "b": -0.05396774061559057
+    },
+    "php": {
+      "a": 1.008464795463535,
+      "b": -0.015182837165158489
+    },
+    "ruby": {
+      "a": 0.9919257158956668,
+      "b": -0.07452748474750603
+    },
+    "go": {
+      "a": 1.0396476346221535,
+      "b": 0.035475594844279555
+    }
+  },
+  "calibration_note": "Apply as: corrected_normalized_pred = a * raw_normalized_pred + b, using the coefficients for the input's language, BEFORE inverting the log1p/standardize transform."
+}
