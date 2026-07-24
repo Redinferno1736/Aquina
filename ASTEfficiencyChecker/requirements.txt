@@ -1,0 +1,14 @@
+# requirements.txt
+tree-sitter>=0.21.0
+tree-sitter-python
+tree-sitter-c
+tree-sitter-cpp
+tree-sitter-java
+tree-sitter-javascript
+tree-sitter-typescript
+tree-sitter-rust
+tree-sitter-go
+tree-sitter-c-sharp
+sentence-transformers
+numpy
+requests

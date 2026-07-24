@@ -1,0 +1,21 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.env
+
+# Massive Data Files & Embeddings
+data/**/*.json
+data/**/*.jsonl
+data/**/*.npy
+data/**/*.tmp
+
+optimal_complexities.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
