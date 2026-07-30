@@ -1,16 +1,14 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import anime from "animejs";
-import { ChevronDown, Code2 } from "lucide-react";
-import { generateHeatmapData, PLATFORM_COLORS, PLATFORM_LABELS } from "../data/mockData.js";
+import { ChevronDown, Code2, RefreshCw } from "lucide-react";
+import { PLATFORM_COLORS, PLATFORM_LABELS } from "../config/platforms.js";
+import { useCodingActivity } from "../hooks/useCodingActivity.js";
 
 const DAY_LABELS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 const MONTH_NAMES = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
-// Mixes N platform hex colors, weighted by minutes spent on each —
-// this is the "real color-mixing, not a split-cell hack" the brief
-// asks for. Simple additive RGB blend, weighted by share of the day.
 function blendColors(activity) {
-  const entries = Object.entries(activity);
+  const entries = Object.entries(activity).filter(([platform]) => PLATFORM_COLORS[platform]);
   if (entries.length === 0) return null;
   const total = entries.reduce((sum, [, mins]) => sum + mins, 0);
 
@@ -33,9 +31,6 @@ function intensityFor(total) {
   return 1;
 }
 
-// Groups days by real calendar month, then into Mon-Sun week columns
-// inside that month (padded with nulls so columns stay 7 cells tall).
-// Returns months in chronological order (oldest -> newest).
 function groupIntoMonths(days) {
   if (days.length === 0) return [];
 
@@ -56,14 +51,10 @@ function groupIntoMonths(days) {
   return months.map(({ year, month, days: monthDays }) => {
     const byDate = new Map(monthDays.map((d) => [d.date, d]));
     const daysInMonth = new Date(year, month + 1, 0).getDate();
-
-    // Mon = 0 ... Sun = 6
     const dow = (dateObj) => (dateObj.getDay() + 6) % 7;
-
     const firstDow = dow(new Date(year, month, 1));
     const totalCells = firstDow + daysInMonth;
     const weekCount = Math.ceil(totalCells / 7);
-
     const weeks = Array.from({ length: weekCount }, () => new Array(7).fill(null));
 
     for (let dayNum = 1; dayNum <= daysInMonth; dayNum++) {
@@ -85,12 +76,13 @@ function groupIntoMonths(days) {
 }
 
 export default function CodingHeatmap() {
-  const days = useMemo(() => generateHeatmapData(53), []);
+  const { days, loading, error, syncing, syncAll } = useCodingActivity();
   const months = useMemo(() => groupIntoMonths(days), [days]);
   const gridRef = useRef(null);
   const [active, setActive] = useState(null);
 
   useEffect(() => {
+    if (loading) return;
     const cells = gridRef.current?.querySelectorAll(".heat-cell") ?? [];
     anime({
       targets: cells,
@@ -100,66 +92,81 @@ export default function CodingHeatmap() {
       duration: 500,
       easing: "easeOutQuad",
     });
-  }, []);
+  }, [loading, days]);
 
   return (
     <section className="panel relative flex flex-col px-5 pt-4 pb-3">
       <div className="flex justify-between gap-4">
         <div className="flex-1 min-w-0 overflow-x-auto">
-          <div className="flex gap-1.5">
-            <div className="flex flex-col justify-between text-[8px] text-ink-faint w-6 py-px flex-none pt-[15.7px]">
-              {DAY_LABELS.map((d) => (
-                <span key={d}>{d}</span>
-              ))}
-            </div>
-            <div className="flex gap-2 flex-1" ref={gridRef}>
-              {months.map((month) => (
-                <div className="flex flex-col items-center gap-1" key={month.key}>
-                  <span className="text-[10px] text-ink-muted whitespace-nowrap">{month.label}</span>
-                  <div className="flex gap-[3px]">
-                    {month.weeks.map((week, wi) => (
-                      <div className="flex flex-col gap-[3px]" key={wi}>
-                        {week.map((day, di) => {
-                          if (!day) {
-                            return <div className="heat-cell w-[8.5px] h-[8.5px] rounded-[2.5px] bg-transparent" key={di} />;
-                          }
-                          const color = blendColors(day.activity);
-                          const intensity = intensityFor(day.total);
-                          return (
-                            <div
-                              key={day.date}
-                              className="heat-cell w-[8.5px] h-[8.5px] rounded-[2.5px] transition-transform duration-150
-                                hover:scale-[1.35] hover:outline hover:outline-1 hover:outline-white/50"
-                              style={{
-                                background: color ?? "rgba(255,255,255,0.05)",
-                                opacity: color ? 0.25 + intensity * 0.75 : 1,
-                              }}
-                              onMouseEnter={() => setActive(day)}
-                              onMouseLeave={() => setActive(null)}
-                            />
-                          );
-                        })}
-                      </div>
-                    ))}
+          {loading ? (
+            <div className="text-[11px] text-ink-muted py-8 text-center">Loading activity…</div>
+          ) : error ? (
+            <div className="text-[11px] text-red-400 py-8 text-center">Failed to load: {error}</div>
+          ) : (
+            <div className="flex gap-1.5">
+              <div className="flex flex-col justify-between text-[8px] text-ink-faint w-6 py-px flex-none pt-[15.7px]">
+                {DAY_LABELS.map((d) => (
+                  <span key={d}>{d}</span>
+                ))}
+              </div>
+              <div className="flex gap-2 flex-1" ref={gridRef}>
+                {months.map((month) => (
+                  <div className="flex flex-col items-center gap-1" key={month.key}>
+                    <span className="text-[10px] text-ink-muted whitespace-nowrap">{month.label}</span>
+                    <div className="flex gap-[3px]">
+                      {month.weeks.map((week, wi) => (
+                        <div className="flex flex-col gap-[3px]" key={wi}>
+                          {week.map((day, di) => {
+                            if (!day) {
+                              return <div className="heat-cell w-[8.5px] h-[8.5px] rounded-[2.5px] bg-transparent" key={di} />;
+                            }
+                            const color = blendColors(day.activity);
+                            const intensity = intensityFor(day.total);
+                            return (
+                              <div
+                                key={day.date}
+                                className="heat-cell w-[8.5px] h-[8.5px] rounded-[2.5px] transition-transform duration-150
+                                  hover:scale-[1.35] hover:outline hover:outline-1 hover:outline-white/50"
+                                style={{
+                                  background: color ?? "rgba(255,255,255,0.05)",
+                                  opacity: color ? 0.25 + intensity * 0.75 : 1,
+                                }}
+                                onMouseEnter={() => setActive(day)}
+                                onMouseLeave={() => setActive(null)}
+                              />
+                            );
+                          })}
+                        </div>
+                      ))}
+                    </div>
                   </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
+          )}
+
+          <div className="flex gap-4 pt-1.5 px-3 text-[11px] text-ink-secondary items-center">
+            <span className="flex items-center gap-1.5">
+              <span className="live-dot" /> Currently: <strong>Coding (VS Code)</strong>
+            </span>
+            <span className="flex items-center gap-1.5 text-ink-muted">
+              <Code2 size={12} /> Session: 02h 34m
+            </span>
+            <button
+              onClick={syncAll}
+              disabled={syncing}
+              className="flex items-center gap-1 text-[11px] text-ink-muted hover:text-ink-secondary transition ml-auto"
+            >
+              <RefreshCw size={12} className={syncing ? "animate-spin" : ""} />
+              {syncing ? "Syncing…" : "Sync now"}
+            </button>
           </div>
-          <div className="flex gap-4 pt-1.5 px-3 text-[11px] text-ink-secondary">
-        <span className="flex items-center gap-1.5">
-          <span className="live-dot" /> Currently: <strong>Coding (VS Code)</strong>
-        </span>
-        <span className="flex items-center gap-1.5 text-ink-muted">
-          <Code2 size={12} /> Session: 02h 34m
-        </span>
-      </div>
         </div>
 
         <div className="flex-none w-[108px] flex flex-col gap-[7px] justify-center border-l border-panel-border pl-4">
           <button className="dropdown-pill">
-          This Year <ChevronDown size={13} />
-        </button>
+            This Year <ChevronDown size={13} />
+          </button>
           {Object.entries(PLATFORM_LABELS).map(([key, label]) => (
             <div className="flex items-center px-2.5 gap-1.5 text-[11px] text-ink-secondary" key={key}>
               <span className="legend-dot" style={{ background: PLATFORM_COLORS[key] }} />
@@ -185,8 +192,6 @@ export default function CodingHeatmap() {
           </div>
         </div>
       )}
-
-      
     </section>
   );
 }

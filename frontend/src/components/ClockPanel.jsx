@@ -17,7 +17,6 @@ export default function ClockPanel() {
     return () => clearInterval(id);
   }, []);
 
-  console.log("ClockPanel rendered");
   return (
     <section
   className="flex-none w-[197px] flex flex-col items-end justify-center py-10 relative z-50"

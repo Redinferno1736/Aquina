@@ -1,6 +1,6 @@
 import { useState } from "react";
 import MeshGradientBackground from "./components/MeshGradientBackground.jsx";
-import TitleBar from "./components/TitleBar.jsx";
+// import TitleBar from "./components/TitleBar.jsx";
 import Dashboard from "./components/Dashboard.jsx";
 import "./styles/mesh.css";
 import "./styles/button_glow.css";
@@ -14,7 +14,6 @@ export default function App() {
           Flip to mode="generated" to render the mesh from the control
           points instead, e.g. for a Safe Mode re-theme later. */}
       <MeshGradientBackground mode="image" />
-      <TitleBar />
       <main className="flex-1 overflow-y-auto overflow-x-hidden">
         <Dashboard safeMode={safeMode} onToggleSafeMode={() => setSafeMode((v) => !v)} />
       </main>
